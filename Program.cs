@@ -66,7 +66,7 @@ namespace Båthamnen
                     hasReseted = false;
                 }
                 var input = Console.ReadKey(true);
-                if (input.KeyChar == 'q')  // reset
+                if (input.KeyChar == 'r')  // Tryck "r" för att återställa programmet.
                 {
                     harbor = new Boat[64, 2];
                     rejectedBoats = 0;
